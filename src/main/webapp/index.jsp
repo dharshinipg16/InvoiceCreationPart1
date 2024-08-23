@@ -164,7 +164,7 @@
 
                     try {
                         Class.forName("com.mysql.cj.jdbc.Driver");
-                        con = DriverManager.getConnection("jdbc:mysql://localhost:3306/demo", "root", "MYSQL12345@zohocorp");
+                        con = DriverManager.getConnection("jdbc:mysql://localhost:3306/demo", "root", "PUT PASSWORD IN HERE");
                         stmt = con.createStatement();
                         rs = stmt.executeQuery("SELECT * FROM products");
 
