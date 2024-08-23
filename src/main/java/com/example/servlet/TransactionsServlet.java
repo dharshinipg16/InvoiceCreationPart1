@@ -58,7 +58,7 @@ public class TransactionsServlet extends HttpServlet {
     // Database connection parameters
     private static final String DB_URL = "jdbc:mysql://localhost:3306/demo";
     private static final String DB_USER = "root";
-    private static final String DB_PASSWORD = "MYSQL12345@zohocorp";
+    private static final String DB_PASSWORD = "PUT PASSWORD IN HERE";
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
