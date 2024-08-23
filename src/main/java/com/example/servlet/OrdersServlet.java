@@ -32,7 +32,7 @@ public class OrdersServlet extends HttpServlet {
 
     private static final String DB_URL = "jdbc:mysql://localhost:3306/demo"; //DB CONECTION
     private static final String DB_USER = "root";
-    private static final String DB_PASSWORD = "MYSQL12345@zohocorp";
+    private static final String DB_PASSWORD = "PUT PASSWORD IN HERE";
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
