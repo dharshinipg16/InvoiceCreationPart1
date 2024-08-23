@@ -299,7 +299,7 @@ public class InvoiceServlet extends HttpServlet {
             //******* INPUT ITEMS FROM ORDER TO PDF AND DATABASE ******************
             try {
                 Class.forName("com.mysql.cj.jdbc.Driver");
-                con = DriverManager.getConnection("jdbc:mysql://localhost:3306/demo", "root", "MYSQL12345@zohocorp");
+                con = DriverManager.getConnection("jdbc:mysql://localhost:3306/demo", "root", "PUT PASSWORD IN HERE");
 
                 StringBuilder checker = new StringBuilder();
                 if (selectedProducts != null) {
@@ -365,7 +365,7 @@ public class InvoiceServlet extends HttpServlet {
             try {
                 // Load the JDBC driver
                 Class.forName("com.mysql.cj.jdbc.Driver");
-                con = DriverManager.getConnection("jdbc:mysql://localhost:3306/demo", "root", "MYSQL12345@zohocorp");
+                con = DriverManager.getConnection("jdbc:mysql://localhost:3306/demo", "root", "PUT PASSWORD IN HERE");
 
                 // Check if the customer exists
                 String checkSql = "SELECT cid FROM customers WHERE cname = ? AND ccity = ? AND cstate = ?";
